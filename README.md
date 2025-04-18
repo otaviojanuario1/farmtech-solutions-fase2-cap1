@@ -211,3 +211,64 @@ Plantação N:1 Cultura
 Várias plantações podem cultivar a mesma cultura.
 
 Cada plantação está associada a uma única cultura.
+Item 5 - Tipos de Dados de Cada Atributo
+Aqui está a descrição dos tipos de dados para cada um dos atributos mencionados no trabalho:
+
+Sensor
+
+id_sensor: Tipo de dado INT ou BIGINT.
+
+tipo_sensor: Tipo de dado VARCHAR(50).
+
+localizacao: Tipo de dado VARCHAR(100).
+
+Plantações
+
+id_plantacao: Tipo de dado INT ou BIGINT.
+
+nome_cultura: Tipo de dado VARCHAR(100).
+
+data_plantio: Tipo de dado DATE.
+
+Leituras
+
+id_leitura: Tipo de dado INT ou BIGINT.
+
+data_leitura: Tipo de dado DATETIME.
+
+valor: Tipo de dado FLOAT ou DOUBLE.
+
+id_sensor: Tipo de dado INT ou BIGINT.
+
+id_plantacao: Tipo de dado INT ou BIGINT.
+
+Ajustes de Irrigação
+
+id_ajuste: Tipo de dado INT ou BIGINT.
+
+data_ajuste: Tipo de dado DATETIME.
+
+quantidade_agua: Tipo de dado FLOAT.
+
+Histórico de pH
+
+id_hist_pH: Tipo de dado INT ou BIGINT.
+
+data_leitura: Tipo de dado DATETIME.
+
+valor_pH: Tipo de dado FLOAT.
+
+id_plantacao: Tipo de dado INT ou BIGINT.
+
+Histórico de Nutrientes
+
+id_hist_nutrientes: Tipo de dado INT ou BIGINT.
+
+data_leitura: Tipo de dado DATETIME.
+
+valor_P: Tipo de dado FLOAT.
+
+valor_K: Tipo de dado FLOAT.
+
+id_plantacao: Tipo de dado INT ou BIGINT.
+
