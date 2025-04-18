@@ -143,3 +143,39 @@ quantidade_nutrientes
 
 id_plantacao (FK)
 
+Item 3 – Cardinalidade dos Relacionamentos
+A seguir, apresentamos os relacionamentos entre as entidades do sistema e suas respectivas cardinalidades:​
+DIO
++1
+Wikipedia, la enciclopedia libre
++1
+
+Produtor 1:N Plantação
+
+Um produtor pode ter várias plantações.
+
+Cada plantação pertence a um único produtor.​
+
+Plantação 1:N Sensor
+
+Uma plantação pode ter vários sensores instalados.
+
+Cada sensor está associado a uma única plantação.​
+
+Sensor 1:N LeituraSensor
+
+Um sensor pode gerar várias leituras ao longo do tempo.
+
+Cada leitura está vinculada a um único sensor.​
+
+Plantação 1:N AjusteAplicacao
+
+Uma plantação pode ter vários ajustes de aplicação registrados.
+
+Cada ajuste de aplicação está relacionado a uma única plantação.​
+
+Plantação N:1 Cultura
+
+Várias plantações podem cultivar a mesma cultura.
+
+Cada plantação está associada a uma única cultura.
