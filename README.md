@@ -179,3 +179,35 @@ Plantação N:1 Cultura
 Várias plantações podem cultivar a mesma cultura.
 
 Cada plantação está associada a uma única cultura.
+Item 4 – Relacionamentos entre as Entidades (MER)
+Com base nas entidades e atributos definidos anteriormente, os seguintes relacionamentos foram estabelecidos:​
+
+Produtor 1:N Plantação
+
+Um produtor pode possuir várias plantações.
+
+Cada plantação pertence a um único produtor.​
+
+Plantação 1:N Sensor
+
+Uma plantação pode ter vários sensores instalados.
+
+Cada sensor está associado a uma única plantação.​
+
+Sensor 1:N LeituraSensor
+
+Um sensor pode gerar várias leituras ao longo do tempo.
+
+Cada leitura está vinculada a um único sensor.​
+
+Plantação 1:N AjusteAplicacao
+
+Uma plantação pode ter vários ajustes de aplicação registrados.
+
+Cada ajuste de aplicação está relacionado a uma única plantação.​
+
+Plantação N:1 Cultura
+
+Várias plantações podem cultivar a mesma cultura.
+
+Cada plantação está associada a uma única cultura.
