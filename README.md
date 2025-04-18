@@ -68,3 +68,78 @@ Dados de aplicação de água e nutrientes;
 Informações sobre a cultura plantada em cada área;
 
 Resultados de produção colhida.
+Item 2 - Entidades e Atributos (MER)
+As seguintes entidades foram definidas para representar os elementos essenciais do sistema da FarmTech Solutions, com seus respectivos atributos:
+
+1. Produtor
+
+id_produtor (PK)
+
+nome
+
+cpf
+
+telefone
+
+2. Plantação
+
+id_plantacao (PK)
+
+localizacao
+
+area_total
+
+data_inicio
+
+id_produtor (FK)
+
+3. Cultura
+
+id_cultura (PK)
+
+nome
+
+tipo
+
+tempo_estimado_colheita
+
+4. Sensor
+
+id_sensor (PK)
+
+tipo_sensor (umidade, pH, nutrientes)
+
+marca
+
+modelo
+
+id_plantacao (FK)
+
+5. LeituraSensor
+
+id_leitura (PK)
+
+data_hora
+
+valor_umidade
+
+valor_ph
+
+valor_fosforo
+
+valor_potassio
+
+id_sensor (FK)
+
+6. AjusteAplicacao
+
+id_ajuste (PK)
+
+data_hora_ajuste
+
+quantidade_agua
+
+quantidade_nutrientes
+
+id_plantacao (FK)
+
